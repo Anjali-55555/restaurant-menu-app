@@ -1,0 +1,66 @@
+[
+  {
+    "id": "itm_001",
+    "name": "Margherita Pizza",
+    "category": "pizza",
+    "price": 12.99,
+    "description": "Classic tomato sauce, fresh mozzarella, basil.",
+    "available": true
+  },
+  {
+    "id": "itm_002",
+    "name": "Pepperoni Pizza",
+    "category": "pizza",
+    "price": 14.49,
+    "description": "Tomato sauce, mozzarella, pepperoni.",
+    "available": true
+  },
+  {
+    "id": "itm_003",
+    "name": "Caesar Salad",
+    "category": "salad",
+    "price": 8.99,
+    "description": "Romaine, parmesan, croutons, caesar dressing.",
+    "available": true
+  },
+  {
+    "id": "itm_004",
+    "name": "Greek Salad",
+    "category": "salad",
+    "price": 9.49,
+    "description": "Cucumber, tomato, olives, feta, red onion.",
+    "available": true
+  },
+  {
+    "id": "itm_005",
+    "name": "Tiramisu",
+    "category": "dessert",
+    "price": 6.99,
+    "description": "Espresso-soaked ladyfingers, mascarpone cream.",
+    "available": true
+  },
+  {
+    "id": "itm_006",
+    "name": "Chocolate Lava Cake",
+    "category": "dessert",
+    "price": 7.49,
+    "description": "Warm chocolate cake with a molten center.",
+    "available": false
+  },
+  {
+    "id": "itm_007",
+    "name": "Sparkling Water",
+    "category": "beverage",
+    "price": 3.5,
+    "description": "500ml bottle.",
+    "available": true
+  },
+  {
+    "id": "itm_008",
+    "name": "Iced Tea",
+    "category": "beverage",
+    "price": 3.99,
+    "description": "House-brewed, unsweetened or sweet.",
+    "available": true
+  }
+]
