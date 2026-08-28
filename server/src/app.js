@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 const orderRoutes = require("./routes/orderRoutes");
-// const menuRoutes = require("./routes/menuRoutes"); // uncomment once Role 3 pushes theirs
+// const menuRoutes = require("./routes/menuRoutes"); // uncomment once Role 3's branch is merged
 
 const errorHandler = require("./middleware/errorHandler");
 
@@ -14,7 +14,7 @@ app.use(express.json());
 app.get("/", (req, res) => res.send("Restaurant Menu API is running"));
 
 app.use("/api/orders", orderRoutes);
-// app.use("/api/menu", menuRoutes); // uncomment once Role 3 pushes theirs
+// app.use("/api/menu", menuRoutes); // uncomment once Role 3's branch is merged
 
 app.use(errorHandler);
 
